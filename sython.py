@@ -61,7 +61,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@saythonh"))
+        await sython(JoinChannelRequest("@RRJRJ"))
     except BaseException:
         pass
 
@@ -114,12 +114,12 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 5159123009
-@sython.on(events.NewMessage(outgoing=False, pattern='/start'))
+ownerhson_id = 1041483862
+@sython.on(events.NewMessage(outgoing=False, pattern='فزعه'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('مرحبا ايها المطور')
+        order = await event.reply('هنا يمك حلم ابشر  @H_P_K')
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
