@@ -70,7 +70,7 @@ def gen_user(choice):
             username = ''.join(f)
         else:
             pass
-          if choice == "3":
+    if choice == "3":
         c = d =random.choices(a)
         d = random.choices(e)
         s = random.choices(b)
