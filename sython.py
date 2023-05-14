@@ -49,7 +49,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5159123009,
+   1041483862,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
