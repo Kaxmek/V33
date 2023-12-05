@@ -272,7 +272,7 @@ async def _(event):
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
 𝐔𝐒𝐄𝐑 : @{username}        
-CH / @awaaa - @H_P_K
+CH / @H_P_K
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -330,7 +330,7 @@ async def _(event):
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
 𝐔𝐒𝐄𝐑 : @{username}        
-CH / @awaaa - @H_P_K
+CH / @H_P_K
 
     ''')
                         break
