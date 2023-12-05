@@ -84,7 +84,7 @@ async def _(event):
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ SOURCE حلم : @awaaa**
+☆ SOURCE حلم : @h_P_k **
 
 -قـم بأرسال `.الاوامر`
 ''')
@@ -115,7 +115,7 @@ async def _(event):
 
     
 ownerhson_id = 1041483862
-@sython.on(events.NewMessage(outgoing=False, pattern='فزعه'))
+@sython.on(events.NewMessage(outgoing=False, pattern='حلم'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
