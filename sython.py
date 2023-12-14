@@ -133,7 +133,7 @@ async def _(event):
         channel_entity = await sython.get_entity(bot_username)
         await sython.send_message('https://t.me/EEObot?start=00065zu2k9', 'جاري التجميع بواسطة | SOMY TEAM')
         channel_entity = await sython.get_entity(bot_username)
-        await sython.send_message('@EEObot', '/https://t.me/EEObot?start=00065zu2k9')
+        await sython.send_message('/Start', '/https://t.me/@EEObot')
         await asyncio.sleep(5)
         msg0 = await sython.get_messages('@EEObot', limit=1)
         await msg0[0].click(2)
