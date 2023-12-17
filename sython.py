@@ -119,7 +119,7 @@ ownerhson_id = 1041483862
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('هنا يمك بيرو ابشر  @H_P_K')
+        order = await event.reply('هنا يمك بيرو ابشر  @K570K')
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
@@ -131,7 +131,7 @@ async def update(event):
 async def _(event):
         await event.edit("حسنا, تأكد من انك مشترك ب قنوات الاشتراك الاجباري لتجنب الأخطأء")
         channel_entity = await sython.get_entity(bot_username)
-        await sython.send_message('https://t.me/EEObot?start=00065zu2k9', 'جاري التجميع بواسطة | SOMY TEAM')
+        await sython.send_message('https://t.me/EEObot', 'جاري التجميع بواسطة | SOMY TEAM')
         channel_entity = await sython.get_entity(bot_username)
         await sython.send_message('/Start', '/https://t.me/@EEObot')
         await asyncio.sleep(5)
