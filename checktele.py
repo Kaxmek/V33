@@ -381,3 +381,22 @@ for t in range(100):
     Threads.append(le)
 for Th in Threads:
     Th.join()
+
+
+
+
+
+else:
+            pass
+    if choice == "15":
+        c = d =random.choices(a)
+        d = random.choices(e)
+        s = random.choices(a)
+        f =  [c[0], d[0], s[0], s[0], s[0],s[0]]
+        username = ''.join(f)
+        if username in banned[0]:
+            c = d =random.choices(a)
+            d = random.choices(e)
+            s = random.choices(a)
+            f =  [c[0], d[0], s[0], s[0], s[0],s[0]]
+            username = ''.join(f)
